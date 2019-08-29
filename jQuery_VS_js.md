@@ -1,4 +1,4 @@
-### jQuery 与 JS 命令对比
+### jQuery 与 JS 命令参照表
 
 我整理了一张 《jQuery 与 JS 命令参照表》，包括 Select，Content，CSS，DOM，Event 五个常见分类。
 
