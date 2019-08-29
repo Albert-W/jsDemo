@@ -7,7 +7,7 @@ jQuery VS JS comparison table
 |         	|              	| jQuery                                  	| JS                                                                   	|
 |---------	|--------------	|-----------------------------------------	|----------------------------------------------------------------------	|
 | Select  	| by ID        	| $('#idName')                            	| document.getElementById('idName')                                    	|
-|         	| by Tag       	| $("div")                                	| document.getElementsByTagName("div")                                 	|
+|         	| by tag       	| $("div")                                	| document.getElementsByTagName("div")                                 	|
 |         	| by class     	| $('.className')                         	| document.getElementsByClassName(".className");                       	|
 |         	| by css       	| $("p.intro")                            	| document.querySelectorAll("p.intro")                                 	|
 | Content 	| set text     	| myElement.text("Hello");                	| myElement.textContent = "Hello";                                     	|
