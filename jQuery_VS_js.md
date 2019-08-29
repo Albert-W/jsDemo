@@ -9,6 +9,7 @@ jQuery1.x ,2.x 都存在安全漏洞， jQuery3.x 在提高安全性的同时，
 笔者整理了一张 《jQuery 与 JS 命令参照表》， 包括 选择，内容，样式，DOM，事件 五个常见分类。
 
 jQquery VS JS comparison table
+
 |         	|              	| jQuery                                  	| JS                                                                   	|
 |---------	|--------------	|-----------------------------------------	|----------------------------------------------------------------------	|
 | select  	| by ID        	| $('#idName')                            	| document.getElementById('idName')                                    	|
@@ -31,6 +32,7 @@ jQquery VS JS comparison table
 |         	| DOM ready    	| $('document').ready(function(){});      	| document.addEventListener('DOMContentLoaded', function(){ }, false); 	|
 | Events  	| click        	| someElement.on('click', function(){});  	| someElement.addEventListener('click', function() {});                	|
 |         	| remove click 	| someElement.off('click', function(){}); 	| someElement.removeEventListener('click', function() {});             	|
+
 
 欢迎补充指正。
 
