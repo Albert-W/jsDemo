@@ -18,7 +18,7 @@ jQquery VS JS comparison table
 |         	| by css       	| $("p.intro")                            	| document.querySelectorAll("p.intro")                                 	|
 | content 	| set text     	| myElement.text("Hello");                	| myElement.textContent = "Hello";                                     	|
 |         	| get text     	| var myText = myElement.text();          	| var myText = myElement.textContent || myElement.innerText;           	|
-|         	| set html     	| myElement.html("<p>Hello</p>");         	| myElement.innerHTML = "<p>Hello</p>";                                	|
+|         	| set html     	| myElement.html("```<p>Hello</p>```");         	| myElement.innerHTML = "```<p>Hello</p>```";                                	|
 |         	| get html     	| var content = myElement.html();         	| var content = myElement.innerHTML;                                   	|
 | css     	| hide         	| myElement.hide();                       	| myElement.style.display = "none";                                    	|
 |         	| show         	| myElement.show();                       	| myElement.style.display = "";                                        	|
