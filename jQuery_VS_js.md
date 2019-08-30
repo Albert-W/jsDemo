@@ -43,6 +43,6 @@ jQuery VS JS comparison table
 #### 参考资料
 1. w3schools: https://www.w3schools.com/js/js_jquery_selectors.asp 
 2. csdn blog: https://blog.csdn.net/DUDUfine/article/details/75944536 
-3. stackoverflow: https://blog.csdn.net/DUDUfine/article/details/75944536 
+3. stackoverflow: https://stackoverflow.com/questions/9899372/pure-javascript-equivalent-of-jquerys-ready-how-to-call-a-function-when-t
 4. stackoverflow: https://stackoverflow.com/questions/5085567/what-is-the-hasclass-function-with-plain-javascript 
 5. github: https://github.com/nefe/You-Dont-Need-jQuery#browser-support
