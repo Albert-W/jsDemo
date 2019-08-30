@@ -10,7 +10,7 @@ jQuery VS JS comparison table
 |         | by tag       | $('tag')                                | document.getElementsByTagName('tag')                                                                                           |
 |         | by class     | $('.class')                             | document.getElementsByClassName("class");                                                                                      |
 |         | by css       | $("css selector")                       | document.querySelectorAll("css selector")                                                                                      |
-|         | first el     | $("css selector")[0]                    | document.querySelector("css selector")                                                                                         |
+|         | first el     | $("css selector:first")                  | document.querySelector("css selector")                                                                                         |
 | Content | set text     | el.text(string);                        | el.textContent = string;                                                                                                       |
 |         | get text     | var myText = el.text();                 | var myText = el.textContent                                                                                                    |
 |         | set html     | el.html(htmlString);                    | el.innerHTML = htmlString;                                                                                                     |
