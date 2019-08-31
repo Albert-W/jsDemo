@@ -10,7 +10,7 @@ jQuery VS JS comparison table
 |         | by tag       | $('tag')                                | document.getElementsByTagName('tag')                                                                                           |
 |         | by class     | $('.class')                             | document.getElementsByClassName("class");                                                                                      |
 |         | by css       | $("css selector")                       | document.querySelectorAll("css selector")                                                                                      |
-|         | first el     | $("css selector:first")                  | document.querySelector("css selector")                                                                                         |
+|         | first el     | $("css selector")[0]                    | document.querySelector("css selector")                                                                                         |
 | Content | set text     | el.text(string);                        | el.textContent = string;                                                                                                       |
 |         | get text     | var myText = el.text();                 | var myText = el.textContent                                                                                                    |
 |         | set html     | el.html(htmlString);                    | el.innerHTML = htmlString;                                                                                                     |
@@ -28,7 +28,7 @@ jQuery VS JS comparison table
 | DOM     | Remove       | el.remove();                            | el.parentNode.removeChild(el);                                                                                                 |
 |         | empty        | el.empty();                             | el.innerHTML = null;                                                                                                           |
 |         | get parent   | var myParent = el.parent();             | var myParent = el.parentNode;                                                                                                  |
-|         | scroll top   | $(window).scrollTop();                  | (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;                                   |
+|         | scroll top   | $(window).scrollTop();                  | document.documentElement.scrollTop;                                                                                            |
 |         | DOM ready    | $('document').ready(eventHandler);      | document.addEventListener('DOMContentLoaded', eventHandler);                                                                   |
 |         | Ajax         | $(selector).load(url, completeCallback) | fetch(url).then(data => data.text() ).then(data=>{ document.querySelector(selector).innerHTML = data }).then(completeCallback) |
 |         | iframe       | $iframe.contents();                     | iframe.contentDocument;                                                                                                        |
@@ -36,7 +36,6 @@ jQuery VS JS comparison table
 |         | this         | $(this)                                 | this                                                                                                                           |
 | Event   | click        | el.on('click', eventHandler);           | el.addEventListener('click', eventHandler);                                                                                    |
 |         | remove click | el.off('click', eventHandler);          | el.removeEventListener('click', eventHandler);                                                                                 |
-
 
 欢迎指正或补充。
 
