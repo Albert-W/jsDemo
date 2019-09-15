@@ -28,7 +28,7 @@ jQuery VS JS comparison table
 | DOM     | Remove       | el.remove();                            | el.parentNode.removeChild(el);                                                                                                 |
 |         | empty        | el.empty();                             | el.innerHTML = null;                                                                                                           |
 |         | get parent   | var myParent = el.parent();             | var myParent = el.parentNode;                                                                                                  |
-|         | scroll top   | $(window).scrollTop();                  | document.documentElement.scrollTop;                                                                                            |
+|         | scroll top   | el.scrollTop();                  | el.scrollTop;                                                                                            |
 |         | DOM ready    | $('document').ready(eventHandler);      | document.addEventListener('DOMContentLoaded', eventHandler);                                                                   |
 |         | Ajax         | $(selector).load(url, completeCallback) | fetch(url).then(data => data.text() ).then(data=>{ document.querySelector(selector).innerHTML = data }).then(completeCallback) |
 |         | iframe       | $iframe.contents();                     | iframe.contentDocument;                                                                                                        |
