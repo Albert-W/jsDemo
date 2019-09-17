@@ -54,3 +54,4 @@ jQuery VS JS comparison table
 3. stackoverflow: https://stackoverflow.com/questions/9899372/pure-javascript-equivalent-of-jquerys-ready-how-to-call-a-function-when-t
 4. stackoverflow: https://stackoverflow.com/questions/5085567/what-is-the-hasclass-function-with-plain-javascript 
 5. github: https://github.com/nefe/You-Dont-Need-jQuery#browser-support
+6. http://youmightnotneedjquery.com/
